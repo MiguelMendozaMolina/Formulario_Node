@@ -1,0 +1,12 @@
+extends layout
+
+block content
+ h1 Gracias por enviar tu archivo #{datos.username}
+ img(src="/done/" + files.filename)
+
+//- Se mostraran el nombre del usuario y la imagen que se acaba de subir
+//- h1=datos.username
+    p
+    h1=datos.email
+    p
+    h1=datos.message
